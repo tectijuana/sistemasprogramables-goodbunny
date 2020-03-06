@@ -8,8 +8,8 @@ sistemasprogramables-goodbunny created by GitHub Classroom
 
 | Nombre | Participacion | Calificación |
 |-------------|----------------|--------------|
-| d           |                |              | 
-| d           |                |              | 
-| d           |                |              | 
-| d           |                |              | 
-| d           |                |              | 
+| Montserrat |Investigación |              | 
+| Lizbeth | Investigación  |              | 
+|Adolfo  | | | 
+| Yim |Investigación |              | 
+
