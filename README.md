@@ -13,20 +13,30 @@ sistemasprogramables-goodbunny created by GitHub Classroom
 |Adolfo  | | | 
 | Yim |Investigación |              | 
 
-<br>Fototransistor</br>
+Fototransistor
+
 Transistor el cual es activado por la incidencia de la luz en la región de base generando portadores en ella, el mismo tiene una ventana que permite la entrada de luz. Los fototransistores combinan en un mismo dispositivo la detección de luz y la ganancia.
+
 La superficie superior se expone a la luz a través de una ventana o lente. Los fotones incidentes generan pares electrón-hueco en la proximidad de la gran unión CB. Las tensiones de polarización inversa de la unión CB, llevan los huecos a la superficie de la base y los electrones al colector. La unión BE polarizada directamente, hace que los huecos circulen de base a emisor mientras que los electrones fluyen del emisor a la base.
 En este punto la acción convencional del transistor se lleva a cabo con los electrones inyectados del emisor cruzando la pequeña región de la base y alcanzando el colector que es más positivo. Este flujo de electrones constituye una corriente de colector inducida por la luz. Los pares electrón-hueco fotoinducidos contribuyen a la corriente de base y si el fototransistor se conecta en configuración de emisor común, la corriente de base inducida por la luz.
+
 Fotodiodo
+
 ¿Qué es ?
+
 El fotodiodo tiene básicamente la misma construcción que un diodo rectificador (está construido por una unión PN), sin embargo este tiene una característica que lo hace especial: es un dispositivo  sensible a la luz visible e incluso a la infrarroja. En pocas palabras resulta ser un diodo con sensibilidad a la luz.
+
 ¿Cómo funciona?
+
 Al ser un diodo es muy importante tener en cuenta su polarización ya que en este tipo la corriente eléctrica fluye en sentido inverso, por lo que debemos realizarlo de manera inversa. La mayoría vienen equipados con un lente que concentra la cantidad de luz que lo incide, por lo tanto su reacción a la iluminación es más evidente. Al circular la corriente de manera inversa provoca un aumento de corriente dependiendo de los intensidad de luz que detecte.
+
 ¿Qué tipos  de fotodiodos existen?
+
 PIN
 Es un diodo semiconductor al que se le ha introducido una zona intermedia llamada intrínseca para que la eﬁciencia del fotodiodo sea alta. El problema que presenta es que el tiempo de tránsito de los foto-portadores es mayor, aumentando el tiempo de respuesta. 
 ADP 
 El fotodiodo APD o de avalancha es un fotodiodo con ganancia interna debido al efecto de avalancha.
+
 Fotorresistencia
 
 ¿Qué es una fotorresistencia?
