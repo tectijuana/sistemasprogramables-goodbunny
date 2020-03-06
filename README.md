@@ -13,12 +13,13 @@ sistemasprogramables-goodbunny created by GitHub Classroom
 |Adolfo  | | | 
 | Yim |Investigación |              | 
 
-<p align="justify">
+
 <h2>Fotodiodo</h2>
 
 <h3>¿Qué es?</h3>
-
+<p align="justify">
 El fotodiodo tiene básicamente la misma construcción que un diodo rectificador (está construido por una unión PN), sin embargo este tiene una característica que lo hace especial: es un dispositivo  sensible a la luz visible e incluso a la infrarroja. En pocas palabras resulta ser un diodo con sensibilidad a la luz.
+ </p>
 
 <h3>¿Cómo funciona?</h3>
 
