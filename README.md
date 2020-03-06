@@ -61,7 +61,10 @@ La resistencia varía entre 1MΩ, cuando hay mucha oscuridad y 100Ω con altas i
 Tiempo de respuesta de 1 décima de segundo cuando varía la intensidad lumínica.
 De muy bajo costo y tecnología sencilla, por lo tanto se puede encontrar en cámaras, medidores de luz, alarmas de seguridad, medidores de radio o los sistemas de alumbrado público; también en autos modernos.
 Referencias
+
+EcuRed. Fototransistor de EcuRed. Sitio Web:https://www.ecured.cu/Fototransistor
 Mecafenix Frank. (2018). El fotodiodo,para qué es y para qué sirve. Marzo 05,2020, de Ingenieria Mecafenix Sitio web: https://www.ingmecafenix.com/automatizacion/fotodiodo/
+
 José Luis R, J. R. (2019, 29 septiembre). Como funciona una fotorresistencia. Recuperado 5 marzo, 2020, de https://como-funciona.co/una-fotorresistencia/
 
 
