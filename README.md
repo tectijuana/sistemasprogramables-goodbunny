@@ -70,10 +70,13 @@ De muy bajo costo y tecnología sencilla, por lo tanto se puede encontrar en cá
 
 
 <h3>Referencias</h3>
-EcuRed. Fototransistor de EcuRed. Sitio Web:https://www.ecured.cu/Fototransistor
+<ol>
+<li>EcuRed. Fototransistor de EcuRed. Sitio Web:https://www.ecured.cu/Fototransistor</li>
 
-Mecafenix Frank. (2018). El fotodiodo,para qué es y para qué sirve. Marzo 05,2020, de Ingenieria Mecafenix Sitio web: https://www.ingmecafenix.com/automatizacion/fotodiodo/
 
-José Luis R, J. R. (2019, 29 septiembre). Como funciona una fotorresistencia. Recuperado 5 marzo, 2020, de https://como-funciona.co/una-fotorresistencia/
+<li>Mecafenix Frank. (2018). El fotodiodo,para qué es y para qué sirve. Marzo 05,2020, de Ingenieria Mecafenix Sitio web: https://www.ingmecafenix.com/automatizacion/fotodiodo/</li>
 
+<li>José Luis R, J. R. (2019, 29 septiembre). Como funciona una fotorresistencia. Recuperado 5 marzo, 2020, de https://como-funciona.co/una-fotorresistencia/
+</li>
+</ol>
 
