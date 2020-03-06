@@ -72,7 +72,7 @@ La superficie superior se expone a la luz a través de una ventana o lente. Los 
 <p align="justify">
 En este punto la acción convencional del transistor se lleva a cabo con los electrones inyectados del emisor cruzando la pequeña región de la base y alcanzando el colector que es más positivo. Este flujo de electrones constituye una corriente de colector inducida por la luz. Los pares electrón-hueco fotoinducidos contribuyen a la corriente de base y si el fototransistor se conecta en configuración de emisor común, la corriente de base inducida por la luz.
 </p>
-
+<h2>Tabla comparativa</h2>
 | Fotoresistencia                                                                                                    | Fotodiodo                                                                                           | Fototransistor                                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Resistencia que varía  su valor de resistencia  dependiendo de la cantidad  de luz que lo ilumina                  | Dispositivo que conduce una cantidad  de corriente de acuerdo a la cantidad de luz que lo incide.   | Se pueden utilizar las dos en  forma simultánea, aunque el  fototransistor se utiliza  principalmente con la patita  de la base sin conectar. |
