@@ -10,7 +10,7 @@ sistemasprogramables-goodbunny created by GitHub Classroom
 |-------------|----------------|--------------|
 | Montserrat |Investigación |              | 
 | Lizbeth | Investigación  |              | 
-|Adolfo  | | | 
+|Adolfo  | Practica MyOpenLab| | 
 | Yim |Investigación |              | 
 
 
@@ -80,6 +80,66 @@ En este punto la acción convencional del transistor se lleva a cabo con los ele
 | El LDR no se pueda utilizar  en muchas aplicaciones.                                                               | Puede ser utilizado como dispositivo detector de luz, que convierte la  luz en electricidad.        | Como un transistor normal con  la corriente de base (IB)  (modo común)                                                                        |
 | Aplicaciones en las que una  fotoresistencia es muy útil, como el circuito: Luz nocturna  de encendido automático. | El fotodiodo responde a los cambios  de oscuridad a iluminación y viceversa  con mucha más rapidez. | Como fototransistor, cuando la  luz que incide en este elemento  hace las veces de corriente de base                                          |
 
+
+<h2>Practica fototransistor</h2>
+
+![](https://raw.githubusercontent.com/tectijuana/sp-demo-VazquezAdolfo/master/diagrama-ir.png?token=AIER5ATISXER4SJ2WEVWMP26NLVBQ)
+<p align="justify">
+En la imagen podemos ver las presentaciones en las que podemos encontrar los diodos infrarrojos (emisor) y los fototransistores (receptor), estos elementos son las piezas clave en un sensor infrarrojo y siempre las encontraremos independientemente de la presentación,  si se dan cuenta son muy parecidos a un led común, algunos emisores los encontramos transparentes o con un ligero color en púrpura y los receptores en transparentes o negros, estos últimos por un filtro UV que les permite trabajar mejor incluso expuesto a la luz solar.</p>
+
+![](https://raw.githubusercontent.com/tectijuana/sp-demo-VazquezAdolfo/master/iirsense1.png?token=AIER5AV5WAGLHAC4MO5HCY26NLV3Y)
+<p align="justify">
+Existen dos tipos de configuración según el propósito y la información que se quiera mandar al microcontrolador. En el esquema de arriba podemos apreciar ambas, básicamente consiste en mantener el Led Infrarrojo encendido y estarlo monitoreando a través del fototransistor, como su nombre lo indica, es un transistor, así que su función es similar a la de uno común, trabaja a manera de compuerta cerrada cuando esta en reposo y abierta cuando es excitado por la luz, infrarroja en este caso.
+
+Para el ejemplo usaremos la primera opción (A), esta configuración es un clásico PULL UP que en la salida al Pin proporciona un estado alto (HIGH) cuando el fototransistor se encuentra en reposo (cerrado) y un estado bajo cuando esta excitado (abierto), lógicamente la opción (B) funciona de manera inversa.</p>
+
+**Configuración “A”**
+![](https://hardwarehackingmx.files.wordpress.com/2014/01/diagrama-ir.png)
+**Configuración “B”**
+![](https://hardwarehackingmx.files.wordpress.com/2014/01/ir_sensor02.png)
+<p align="justify">
+Al ser un sensor de luz infrarroja su valor puede variar dependiendo de la intensidad del led, la distancia entre ambos componentes e incluso por la luz natural, así que el fototransistor (receptor)  tendrá que ser conectado a un Pin analógico para poder leer su variación.</p>
+
+**Una vez armado el circuito podemos usar el siguiente sketch para verlo funcionando:**
+
+```c++
+		
+const int analogInPin = A1; // Pin analogico 1 para la lectura del Fototransistor
+const int OutPin = 13;      // Pin para el led indicador
+
+int sensorValue = 0;        // Inicializamos el valor del sensor
+
+void setup() {
+  // Inicializamos la comunicacion serial a 9600 bps:
+  Serial.begin(9600); 
+  pinMode(OutPin, OUTPUT);
+}
+
+void loop() {
+  // leemos el pin para y asignamos el valor a la variable.
+  sensorValue = analogRead(analogInPin);            
+  
+  // Si el valor obtenido es mayor a 900 se activa el LED
+  if(sensorValue > 900)
+  {
+    digitalWrite(OutPin, HIGH);
+  }
+  else
+  {
+    digitalWrite(OutPin, LOW);
+  }
+
+  // Imprimimos el valor en el monitor.
+  Serial.print("sensor = " );                       
+  Serial.println(sensorValue);     
+
+  delay(100);                     
+}
+		
+```
+
+
+
 <h3>Referencias</h3>
 <ol>
 <li>EcuRed. Fototransistor de EcuRed. Sitio Web:https://www.ecured.cu/Fototransistor</li>
@@ -87,7 +147,6 @@ En este punto la acción convencional del transistor se lleva a cabo con los ele
 
 <li>Mecafenix Frank. (2018). El fotodiodo,para qué es y para qué sirve. Marzo 05,2020, de Ingenieria Mecafenix Sitio web: https://www.ingmecafenix.com/automatizacion/fotodiodo/</li>
 
-<li>José Luis R, J. R. (2019, 29 septiembre). Como funciona una fotorresistencia. Recuperado 5 marzo, 2020, de https://como-funciona.co/una-fotorresistencia/
-</li>
-</ol>
+<li>José Luis R, J. R. (2019, 29 septiembre). Como funciona una fotorresistencia. Recuperado 5 marzo, 2020, de https://como-funciona.co/una-fotorresistencia/</li>
 
+</ol>
