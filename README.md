@@ -10,7 +10,7 @@ sistemasprogramables-goodbunny created by GitHub Classroom
 |-------------|----------------|--------------|
 | Montserrat |Investigación |              | 
 | Lizbeth | Investigación  |              | 
-|Adolfo  | Practica MyOpenLab| | 
+|Adolfo  | Practica| | 
 | Yim |Investigación |              | 
 
 
