@@ -13,17 +13,6 @@ sistemasprogramables-goodbunny created by GitHub Classroom
 |Adolfo  | | | 
 | Yim |Investigación |              | 
 
-<h2>Fototransistor</h2>
-
-<h3>¿Qué es?</h3>
-
-Transistor el cual es activado por la incidencia de la luz en la región de base generando portadores en ella, el mismo tiene una ventana que permite la entrada de luz. Los fototransistores combinan en un mismo dispositivo la detección de luz y la ganancia.
-
-<h3>¿Cómo funciona?</h3>
-
-La superficie superior se expone a la luz a través de una ventana o lente. Los fotones incidentes generan pares electrón-hueco en la proximidad de la gran unión CB. Las tensiones de polarización inversa de la unión CB, llevan los huecos a la superficie de la base y los electrones al colector. La unión BE polarizada directamente, hace que los huecos circulen de base a emisor mientras que los electrones fluyen del emisor a la base.
-
-En este punto la acción convencional del transistor se lleva a cabo con los electrones inyectados del emisor cruzando la pequeña región de la base y alcanzando el colector que es más positivo. Este flujo de electrones constituye una corriente de colector inducida por la luz. Los pares electrón-hueco fotoinducidos contribuyen a la corriente de base y si el fototransistor se conecta en configuración de emisor común, la corriente de base inducida por la luz.
 
 <h2>Fotodiodo</h2>
 
@@ -67,6 +56,18 @@ Conformados por un semiconductor de alta resistencia.
 La resistencia varía entre 1MΩ, cuando hay mucha oscuridad y 100Ω con altas intensidades de luz
 Tiempo de respuesta de 1 décima de segundo cuando varía la intensidad lumínica.
 De muy bajo costo y tecnología sencilla, por lo tanto se puede encontrar en cámaras, medidores de luz, alarmas de seguridad, medidores de radio o los sistemas de alumbrado público; también en autos modernos.
+
+<h2>Fototransistor</h2>
+
+<h3>¿Qué es?</h3>
+
+Transistor el cual es activado por la incidencia de la luz en la región de base generando portadores en ella, el mismo tiene una ventana que permite la entrada de luz. Los fototransistores combinan en un mismo dispositivo la detección de luz y la ganancia.
+
+<h3>¿Cómo funciona?</h3>
+
+La superficie superior se expone a la luz a través de una ventana o lente. Los fotones incidentes generan pares electrón-hueco en la proximidad de la gran unión CB. Las tensiones de polarización inversa de la unión CB, llevan los huecos a la superficie de la base y los electrones al colector. La unión BE polarizada directamente, hace que los huecos circulen de base a emisor mientras que los electrones fluyen del emisor a la base.
+
+En este punto la acción convencional del transistor se lleva a cabo con los electrones inyectados del emisor cruzando la pequeña región de la base y alcanzando el colector que es más positivo. Este flujo de electrones constituye una corriente de colector inducida por la luz. Los pares electrón-hueco fotoinducidos contribuyen a la corriente de base y si el fototransistor se conecta en configuración de emisor común, la corriente de base inducida por la luz.
 
 
 <h3>Referencias</h3>
