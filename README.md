@@ -94,9 +94,9 @@ Existen dos tipos de configuración según el propósito y la información que s
 Para el ejemplo usaremos la primera opción (A), esta configuración es un clásico PULL UP que en la salida al Pin proporciona un estado alto (HIGH) cuando el fototransistor se encuentra en reposo (cerrado) y un estado bajo cuando esta excitado (abierto), lógicamente la opción (B) funciona de manera inversa.</p>
 
 **Configuración “A”**
-![](https://hardwarehackingmx.files.wordpress.com/2014/01/diagrama-ir.png)
+![](https://raw.githubusercontent.com/tectijuana/sp-demo-VazquezAdolfo/master/diagrama-ir.png?token=AIER5ATISXER4SJ2WEVWMP26NLVBQ)
 **Configuración “B”**
-![](https://hardwarehackingmx.files.wordpress.com/2014/01/ir_sensor02.png)
+![](https://raw.githubusercontent.com/tectijuana/sp-demo-VazquezAdolfo/master/ir_sensor02.png?token=AIER5ATYBA64U4HZQBHS2F26NLZGU)
 <p align="justify">
 Al ser un sensor de luz infrarroja su valor puede variar dependiendo de la intensidad del led, la distancia entre ambos componentes e incluso por la luz natural, así que el fototransistor (receptor)  tendrá que ser conectado a un Pin analógico para poder leer su variación.</p>
 
