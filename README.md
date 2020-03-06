@@ -74,12 +74,13 @@ En este punto la acción convencional del transistor se lleva a cabo con los ele
 </p>
 
 
-| Fotoresistencia                                                                                                       | Fotodiodo | Fototransistor |
-|-----------------------------------------------------------------------------------------------------------------------|-----------|----------------|
-|  Resistencia que varía su valor de   resistencia dependiendo de la   cantidad de luz que lo ilumina.                  |           |                |
-|  El LDR no se pueda utilizar en muchas   aplicaciones.                                                                |           |                |
-|  Aplicaciones en las que una fotoresistencia   es muy útil, como el circuito: Luz nocturna   de encendido automático. |           |                |
+| Fotoresistencia                                                                                                         | Fotodiodo | Fototransistor |
+|-------------------------------------------------------------------------------------------------------------------------|-----------|----------------|
+|   Resistencia que varía   su valor de resistencia   dependiendo de la cantidad   de luz que lo ilumina.                 |           |                |
+|   El LDR no se pueda utilizar   en muchas aplicaciones.                                                                 |           |                |
+|   Aplicaciones en las que una   fotoresistencia es muy útil,  como el circuito: Luz nocturna   de encendido automático. |           |                |
 
+You can now import Markdown table code directly using File/Paste table data... dialog. 
 <h3>Referencias</h3>
 <ol>
 <li>EcuRed. Fototransistor de EcuRed. Sitio Web:https://www.ecured.cu/Fototransistor</li>
