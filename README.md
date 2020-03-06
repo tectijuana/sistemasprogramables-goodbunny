@@ -97,6 +97,7 @@ Para el ejemplo usaremos la primera opción (A), esta configuración es un clás
 ![](https://raw.githubusercontent.com/tectijuana/sp-demo-VazquezAdolfo/master/diagrama-ir.png?token=AIER5ATISXER4SJ2WEVWMP26NLVBQ)
 
 **Configuración “B”**
+
 ![](https://raw.githubusercontent.com/tectijuana/sp-demo-VazquezAdolfo/master/ir_sensor02.png?token=AIER5ATYBA64U4HZQBHS2F26NLZGU)
 <p align="justify">
 Al ser un sensor de luz infrarroja su valor puede variar dependiendo de la intensidad del led, la distancia entre ambos componentes e incluso por la luz natural, así que el fototransistor (receptor)  tendrá que ser conectado a un Pin analógico para poder leer su variación.</p>
