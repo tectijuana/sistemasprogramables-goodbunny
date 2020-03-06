@@ -13,7 +13,7 @@ sistemasprogramables-goodbunny created by GitHub Classroom
 |Adolfo  | | | 
 | Yim |Investigación |              | 
 
-
+<p alignn="justify">
 <h2>Fotodiodo</h2>
 
 <h3>¿Qué es?</h3>
@@ -69,6 +69,7 @@ La superficie superior se expone a la luz a través de una ventana o lente. Los 
 
 En este punto la acción convencional del transistor se lleva a cabo con los electrones inyectados del emisor cruzando la pequeña región de la base y alcanzando el colector que es más positivo. Este flujo de electrones constituye una corriente de colector inducida por la luz. Los pares electrón-hueco fotoinducidos contribuyen a la corriente de base y si el fototransistor se conecta en configuración de emisor común, la corriente de base inducida por la luz.
 
+</p>
 
 <h3>Referencias</h3>
 <ol>
