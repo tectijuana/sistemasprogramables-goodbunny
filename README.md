@@ -13,7 +13,7 @@ sistemasprogramables-goodbunny created by GitHub Classroom
 |Adolfo  | | | 
 | Yim |Investigación |              | 
 
-<p alignn="justify">
+<p align="justify">
 <h2>Fotodiodo</h2>
 
 <h3>¿Qué es?</h3>
