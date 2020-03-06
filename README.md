@@ -95,6 +95,7 @@ Para el ejemplo usaremos la primera opción (A), esta configuración es un clás
 
 **Configuración “A”**
 ![](https://raw.githubusercontent.com/tectijuana/sp-demo-VazquezAdolfo/master/diagrama-ir.png?token=AIER5ATISXER4SJ2WEVWMP26NLVBQ)
+
 **Configuración “B”**
 ![](https://raw.githubusercontent.com/tectijuana/sp-demo-VazquezAdolfo/master/ir_sensor02.png?token=AIER5ATYBA64U4HZQBHS2F26NLZGU)
 <p align="justify">
